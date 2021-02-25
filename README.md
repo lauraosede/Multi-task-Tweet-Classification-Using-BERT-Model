@@ -3,8 +3,8 @@
 # Table of Contents
 1. [Introduction](#Introduction)
 2. [Data](#OurData)
-3. [Assignment](#assignment)
-4. [Help](#help)
+3. [How to use](#HowToUse)
+
 
 ***
 # Introduction
