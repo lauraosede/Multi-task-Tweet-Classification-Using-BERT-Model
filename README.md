@@ -8,7 +8,7 @@
 
 ***
 # Introduction
-This is the repository for the Mullti-task-Tweet-Classification-Using-BERT-Model]. It consists of three tasks in Twitter, all framed as multi-task tweet classification. 
+This is the repository for the Mullti-task-Tweet-Classification-Using-BERT-Model. It consists of three tasks in Twitter, all framed as multi-task tweet classification. 
 
 # Our Data
 
@@ -22,27 +22,11 @@ These are the three datasets for this project, with its corresponding labels (mo
 
 ### How to use
 
-```bash
-python evaluation_script.py
-```
+This code was created in Google Colab, and by default it should run smoothly on any program. 
+Before use, we advise you change the file path to the path your file is stored. 
 The script takes the TweetEval gold test labels and the predictions from the "predictions" folder by default, but you can set this to suit your needs as optional arguments.
 
-### Optional arguments
-
-Three optional arguments can be modified: 
-
-*--tweeteval_path*: Path to TweetEval datasets. Default: *"./datasets/"*
-
-*--predictions_path*: Path to predictions directory. Default: *"./predictions/"*
-
-*--task*: Use this to get single task detailed results *(emoji|emotion|hate|irony|offensive|sentiment|stance)*. Default: ""
-
-Evaluation script sample usage from the terminal with parameters:
-
-```bash
-python evaluation_script.py --tweeteval_path ./datasets/ --predictions_path ./predictions/ --task emoji
-```
-(this script would output the breakdown of the results for the emoji prediction task only)
+(this script would output the evaluation analysis only, and not an actual classification task.)
 
 
 
